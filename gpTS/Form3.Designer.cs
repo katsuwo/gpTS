@@ -193,6 +193,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.outputPathTextbox);
             this.Controls.Add(this.outputBrowseButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form3";

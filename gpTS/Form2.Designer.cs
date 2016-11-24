@@ -82,6 +82,7 @@
             this.Controls.Add(this.buttonOk);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.listBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form2";
             this.Text = "NIC Select";
             this.ResumeLayout(false);

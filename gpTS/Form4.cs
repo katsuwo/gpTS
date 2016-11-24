@@ -16,5 +16,9 @@ namespace gpTS {
             //バージョンの取得
             System.Version ver = asm.GetName().Version; verLabel.Text = string.Format("gpTS - Version:{0}", ver);
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+            System.Diagnostics.Process.Start("http://amzn.asia/50DIKId");
+        }
     }
 }

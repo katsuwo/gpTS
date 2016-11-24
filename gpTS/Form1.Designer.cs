@@ -136,7 +136,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(13, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(710, 46);
+            this.menuStrip1.Size = new System.Drawing.Size(710, 44);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -149,13 +149,13 @@
             this.MainMenuSetting,
             this.MainMenuExit});
             this.MainMenuFile.Name = "MainMenuFile";
-            this.MainMenuFile.Size = new System.Drawing.Size(120, 38);
+            this.MainMenuFile.Size = new System.Drawing.Size(120, 36);
             this.MainMenuFile.Text = "ファイル(&F)";
             // 
             // MainMenuStart
             // 
             this.MainMenuStart.Name = "MainMenuStart";
-            this.MainMenuStart.Size = new System.Drawing.Size(269, 38);
+            this.MainMenuStart.Size = new System.Drawing.Size(256, 38);
             this.MainMenuStart.Text = "覗き見開始(&S)";
             this.MainMenuStart.Click += new System.EventHandler(this.MainMenuStart_Click);
             // 
@@ -163,25 +163,25 @@
             // 
             this.MainMenuStop.Enabled = false;
             this.MainMenuStop.Name = "MainMenuStop";
-            this.MainMenuStop.Size = new System.Drawing.Size(269, 38);
+            this.MainMenuStop.Size = new System.Drawing.Size(256, 38);
             this.MainMenuStop.Text = "覗き見停止(&E)";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(266, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(253, 6);
             // 
             // MainMenuSetting
             // 
             this.MainMenuSetting.Name = "MainMenuSetting";
-            this.MainMenuSetting.Size = new System.Drawing.Size(269, 38);
+            this.MainMenuSetting.Size = new System.Drawing.Size(256, 38);
             this.MainMenuSetting.Text = "設定";
             this.MainMenuSetting.Click += new System.EventHandler(this.MainMenuSetting_Click);
             // 
             // MainMenuExit
             // 
             this.MainMenuExit.Name = "MainMenuExit";
-            this.MainMenuExit.Size = new System.Drawing.Size(269, 38);
+            this.MainMenuExit.Size = new System.Drawing.Size(256, 38);
             this.MainMenuExit.Text = "終了(&X)";
             // 
             // aboutMeToolStripMenuItem
@@ -189,7 +189,7 @@
             this.aboutMeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.m9ToolStripMenuItem});
             this.aboutMeToolStripMenuItem.Name = "aboutMeToolStripMenuItem";
-            this.aboutMeToolStripMenuItem.Size = new System.Drawing.Size(111, 38);
+            this.aboutMeToolStripMenuItem.Size = new System.Drawing.Size(111, 36);
             this.aboutMeToolStripMenuItem.Text = "壁|ω・)ノ";
             // 
             // m9ToolStripMenuItem
@@ -271,6 +271,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.gpauthkeyTextbox);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "gpTS";
